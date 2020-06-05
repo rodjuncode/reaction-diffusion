@@ -1,14 +1,11 @@
 RD rd;
-// http://mrob.com/pub/comp/xmorphia/glossary.html#soliton
-// http://mrob.com/pub/comp/xmorphia/pearson-classes.html
-// http://mrob.com/pub/comp/xmorphia/ogl/index.html
 
 int count = 0;
 PGraphics mask;
 
 void setup() {
-  size(1000,1000);
-  rd = new RD(width,0.09242969,0.05636812); 
+  size(200,200);
+  rd = new RD(width,0.058,0.065); 
   rd.generateMask();
   rd.loadMask();
 }
